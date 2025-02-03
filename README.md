@@ -15,7 +15,7 @@
 
 ## Description
 
-This is a discord bot with nestjs to provide a chat bot for discord.
+This is a discord bot with nestjs to provide a chat bot for discord. It provides endpoints to save bot's token and guild id and retrieve it from db(postgresql)
 
 ## Installation
 
