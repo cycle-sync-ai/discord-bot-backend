@@ -27,8 +27,14 @@ $ npm install
 Add next `.env` config in root
 
 ```dotenv
-TOKEN=YourToken
-GUILD_ID_WITH_COMMANDS=YourGuildId
+# Database Configuration
+DB_HOST=                    # The hostname of your database server
+DB_PORT=                    # The port on which your database server is running
+DB_USERNAME=                # The username to connect to the database
+DB_PASSWORD=                # The password for the database user
+DB_NAME=                    # The name of the database to connect to
+
+OPENAI_API_KEY=             # Your OpenAI API key
 ```
 
 ## Running the app
@@ -44,5 +50,10 @@ $ npm run start:dev
 # Dependencies
 
 ```bash
-npm install @nestjs/typeorm typeorm pg openai
+npm install
 ```
+
+# Author
+
+[Discord](https://discord.gg/TawJX4ue)
+[Email](mailto:worker.opentext@gmail.com)
